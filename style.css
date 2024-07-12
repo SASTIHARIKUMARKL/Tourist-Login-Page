@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ .container{
+    width: 100%;
+}
+.col1, .col2{
+    width: 50%;
+    float: left;
+}
+.container .col1 img{
+    width: 50%;
+    height: 850px;
+    position: absolute;
+    z-index: -1;
+}
+.col1 h1,p{
+    color: white;
+    text-align: center;
+}
+.col1 h1{
+    margin-top: 80px;
+}
+.col1 p{
+    margin-top: 2px;
+    color: rgb(79, 79, 80);
+}
+.col2 button{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    height: 25px;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.col2{
+    text-align: center;
+    margin-top: 100px;
+
+}
+.col2 h1{
+    color: rgb(43, 143, 251);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.col2 p{
+    color: gray;
+}
+.col2 label{
+    color: rgb(43, 143, 251);
+}
+.col2 input{
+    border: 1px solid rgb(43, 143, 251);
+    background-color: white;
+    border-radius: 5px;
+    height: 25px;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.button button{
+    height: 30px;
+    width: 40px;
+    background-color: rgb(167, 229, 249);
+    padding: 5px;
+    margin-left: 10px;
+}
